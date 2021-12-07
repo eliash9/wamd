@@ -19,7 +19,7 @@ app.use(express.urlencoded({
 }));
 
 const { Client } = require('whatsapp-web.js');
-const client = new Client({ puppeteer: { headless: false }, clientId: 'example' });
+const client = new Client({ puppeteer: {headless: true,args: ['--no-sandbox', '--disable-setuid-sandbox'] }, clientId: 'example' });
 client.initialize();
 
 client.on('qr', (qr) => {
