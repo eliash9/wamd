@@ -15,7 +15,6 @@
   "author": "eliash",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
     "http": "0.0.1-security",
