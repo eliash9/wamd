@@ -5,7 +5,6 @@ const socketIO = require('socket.io');
 const qrcode = require('qrcode');
 
 const http = require('http');
-const axios = require('axios');
 const { phoneNumberFormatter } = require('./helpers/formatter');
 
 const port = process.env.PORT || 8000;
