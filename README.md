@@ -7,4 +7,7 @@ npm i
 npm run start:dev
 enjoy
 ```
+heroku ready! 
+
+
 https://karyakarsa.com/eliash/whatsapp-api-multidevice-dengan-nodejs
