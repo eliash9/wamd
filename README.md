@@ -14,4 +14,3 @@ heroku ready!
 
 for cofee
 https://karyakarsa.com/eliash/whatsapp-api-multidevice-dengan-nodejs
-![karyakarsa](https://karyakarsa.com/eliash/whatsapp-api-multidevice-dengan-nodejs)
