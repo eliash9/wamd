@@ -167,13 +167,13 @@ app.get('/', (req, res) => {
 });
 
 // Send message
-
+/*
 const checkRegisteredNumber = async function(number) {
   const isRegistered = await client.isRegisteredUser(number);
   return isRegistered;
 }
 
-
+*/
 app.post('/send-message', [
   body('number').notEmpty(),
   body('message').notEmpty(),
@@ -193,7 +193,7 @@ app.post('/send-message', [
 
   const number = phoneNumberFormatter(req.body.number);
   const message = req.body.message;
-
+/*
   const isRegisteredNumber = await checkRegisteredNumber(number);
 
   if (!isRegisteredNumber) {
@@ -202,7 +202,7 @@ app.post('/send-message', [
       message: 'The number is not registered'
     });
   }
-
+*/
   client.sendMessage(number, message).then(response => {
     res.status(200).json({
       status: true,
