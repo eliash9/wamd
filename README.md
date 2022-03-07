@@ -11,6 +11,11 @@ enjoy
 ```
 heroku ready! 
 
+add https://buildpack-registry.s3.amazonaws.com/buildpacks/jontewks/puppeteer.tgz
+
+connect to this repo then deploy branch
+
+
 
 for cofee
 https://karyakarsa.com/eliash/whatsapp-api-multidevice-dengan-nodejs
