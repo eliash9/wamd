@@ -20,7 +20,7 @@
     "http": "0.0.1-security",
     "qrcode": "^1.4.4",
     "socket.io": "2.4.0",
-    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#multidevice"
+    "whatsapp-web.js": "^1.16.4"
   },
   "engines": {
     "node": "v14.17.3"
